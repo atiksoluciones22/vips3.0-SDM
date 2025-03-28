@@ -1,0 +1,80 @@
+.tool {
+    padding: 30px 25px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+    border: 1px solid #e5e9f2;
+    border-bottom: none;
+}
+
+.tool .title {
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.847);
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 0px 1fr;
+}
+
+.search svg {
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+
+.tool .search input {
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid #e5e9f2;
+    padding: 15px;
+    text-indent: 30px;
+    border-radius: 50px;
+}
+
+.data-table {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+    overflow: auto;
+    text-align: center;
+    border: 1px solid #e5e9f2;
+}
+
+.data-table-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.data-table-body {
+    color: black;
+    border-top: none;
+    border-bottom: none;
+    background-color: white;
+}
+
+.data-table-body .data-table-row:hover>.data-table-cell {
+    background-color: #F4F6F9;
+    cursor: pointer;
+}
+
+.data-table-cell {
+    padding: 10px ;
+    min-width: 200px;
+    background-color: #2B579A;
+    color: white;
+    border: none;
+}
+
+.data-table-body .data-table-cell {
+    border-bottom: 1px solid #e5e9f2;
+    color: black;
+    background-color: white;
+}
+
+.data-table-header .data-table-cell {
+    font-weight: 600;
+}
